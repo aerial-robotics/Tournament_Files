@@ -7,3 +7,8 @@ cd ~/catkin_ws/src/double_integrator_dynamics
 git pull
 cd ~/catkin_ws
 catkin_make install
+cd ~/Tournament_Files
+cp -r ./ml_strategy_bloons_masters ~/catkin_ws/install/share
+cp -r ./ml_strategy_control_freaks ~/catkin_ws/install/share
+cp -r ./ml_strategy_overdogs ~/catkin_ws/install/share
+cp -r ./ml_strategy_underdogs ~/catkin_ws/install/share
