@@ -5,6 +5,8 @@ cd ~/catkin_ws/src/ml_strategy
 git pull
 cd ~/catkin_ws/src/double_integrator_dynamics
 git pull
+cd ~/catkin_ws/src/mg_msgs
+git pull
 cd ~/catkin_ws
 catkin_make install
 cd ~/Tournament_Files
