@@ -24,7 +24,7 @@
                                   "red"] </rosparam>
 
     <!-- Define which quads have shield -->
-    <rosparam param="HasShield"> [0, 0, 0, 1, 0, 0] </rosparam>
+    <rosparam param="HasShield"> [0, 0, 0, 0, 0, 0] </rosparam>
 
     <!-- Set opposite corners of the arena -->
     <rosparam param="arena_corner1"> [-10.0, -2.5, 0.0]</rosparam>
@@ -83,10 +83,10 @@
     <rosparam param="integrator_rate"> 300.0 </rosparam> <!-- Integrator -->
 
     <!-- Standard deviation for position measurements -->
-    <rosparam param="std_dev_pos_meas"> 0.0 </rosparam>
+    <rosparam param="std_dev_pos_meas"> 0.01 </rosparam>
 
     <!-- Standard deviation for velocity measurements -->
-    <rosparam param="std_dev_vel_meas"> 0.0 </rosparam>
+    <rosparam param="std_dev_vel_meas"> 0.01 </rosparam>
     
     <!-- Set Input/Output Topics -->
     <param name="input_ref_topic" value="/px4_control/PVA_Ref_ML"/>
