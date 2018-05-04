@@ -51,7 +51,7 @@
     <rosparam param="tf_update_rate"> 60.0 </rosparam> <!--tf publisher -->
 
     <!-- Set maximum bounds for input velocity and accelerations -->
-    <rosparam param="max_input_acceleration"> 3.0 </rosparam>
+    <rosparam param="max_input_acceleration"> 4.0 </rosparam>
     <rosparam param="max_input_velocity"> 2.5 </rosparam>
 
     <!-- Set Input/Output Topics -->

@@ -25,7 +25,7 @@
 
 
     <!-- Dynamic parameters -->
-    <rosparam param="max_acceleration"> 3.0 </rosparam>
+    <rosparam param="max_acceleration"> 4.0 </rosparam>
     <rosparam param="max_velocity"> 2.5 </rosparam>
 
   </node>
@@ -54,7 +54,7 @@
 
 
     <!-- Dynamic parameters -->
-    <rosparam param="max_acceleration"> 3.0 </rosparam>
+    <rosparam param="max_acceleration"> 4.0 </rosparam>
     <rosparam param="max_velocity"> 2.5 </rosparam>
 
   </node>
