@@ -20,8 +20,8 @@
                                    0.0] </rosparam>
 
     <!-- Balloon positions -->
-    <rosparam param="TeamBalloon"> [-7.5, 0.0, 2.0] </rosparam>
-    <rosparam param="EnemyBalloon"> [7.5, 0.0, 2.0] </rosparam>
+    <rosparam param="TeamBalloon"> [-7.5, 0.0, 1.425] </rosparam>
+    <rosparam param="EnemyBalloon"> [7.5, 0.0, 1.425] </rosparam>
 
 
     <!-- Dynamic parameters -->
@@ -49,8 +49,8 @@
                                    3.1415] </rosparam>
 
     <!-- Balloon positions -->
-    <rosparam param="TeamBalloon"> [7.5, 0.0, 2.0] </rosparam>
-    <rosparam param="EnemyBalloon"> [-7.5, 0.0, 2.0] </rosparam>
+    <rosparam param="TeamBalloon">  [ 7.5, 0.0, 1.425] </rosparam>
+    <rosparam param="EnemyBalloon"> [-7.5, 0.0, 1.425] </rosparam>
 
 
     <!-- Dynamic parameters -->

@@ -24,19 +24,19 @@
                                   "red"] </rosparam>
 
     <!-- Define which quads have shield -->
-    <rosparam param="HasShield"> [0, 0, 0, 0, 0, 0] </rosparam>
+    <rosparam param="HasShield"> [1, 0, 0, 1, 0, 0] </rosparam>
 
     <!-- Set opposite corners of the arena -->
     <rosparam param="arena_corner1"> [-10.0, -2.5, 0.0]</rosparam>
     <rosparam param="arena_corner2"> [10.0, 2.5, 4.0]</rosparam>
 
     <!-- Balloons -->
-    <rosparam param="BalloonPosition"> [-7.5, 0.0, 2.0,
-                                         7.5, 0.0, 2.0] </rosparam>
+    <rosparam param="BalloonPosition"> [-7.5, 0.0, 1.425,
+                                         7.5, 0.0, 1.425] </rosparam>
     <rosparam param="BalloonColors"> ["red", "blue"] </rosparam>
 
     <!-- Mediation layer integrator parameters -->
-    <rosparam param="max_acceleration"> 90.0 </rosparam>
+    <rosparam param="max_acceleration"> 30.0 </rosparam>
     <rosparam param="max_velocity"> 3.0 </rosparam>
     <rosparam param="dist_threshold"> 1.0 </rosparam> <!-- Distance at which one quad influences another -->
     <rosparam param="dist_minimum"> 0.5 </rosparam> <!-- Minimum allowed distance between quads -->
@@ -60,6 +60,7 @@
     <param name="output_ref_topic" value="/px4_control/PVA_Ref_ML"/>
     <param name="visualization_topic" value="/mediation_layer/Visualization"/>
     <param name="game_state_topic" value="/mediation_layer/Game_State"/>
+    <param name="game_start_topic" value="/mediation_layer/Start_Game"/>
 
   </node>
 
