@@ -27,12 +27,12 @@
     <rosparam param="HasShield"> [0, 0, 0, 0, 0, 0] </rosparam>
 
     <!-- Set opposite corners of the arena -->
-    <rosparam param="arena_corner1"> [-10.0, -2.5, 0.0]</rosparam>
-    <rosparam param="arena_corner2"> [10.0, 2.5, 4.0]</rosparam>
+    <rosparam param="arena_corner1"> [-9.14, -2.02, 0.0]</rosparam>
+    <rosparam param="arena_corner2"> [9.02, 2.32, 3.3]</rosparam>
 
     <!-- Balloons -->
-    <rosparam param="BalloonPosition"> [-7.5, 0.0, 1.425,
-                                         7.5, 0.0, 1.425] </rosparam>
+    <rosparam param="BalloonPosition"> [-7.5, 0.0, 1.59,
+                                         7.5, 0.0, 1.59] </rosparam>
     <rosparam param="BalloonColors"> ["red", "blue"] </rosparam>
 
     <!-- Mediation layer integrator parameters -->
@@ -78,12 +78,12 @@
                                  "ron"] </rosparam>
 
     <!-- Initial position quads (meters) -->
-    <rosparam param="InitialPosition"> [6.0,  0.0, 0.0,
-                                        6.0, -1.5, 0.0,
-                                        6.0,  1.5, 0.0,
-                                       -6.0,  0.0, 0.0,
-                                       -6.0, -1.5, 0.0,
-                                       -6.0,  1.5, 0.0] </rosparam>
+    <rosparam param="InitialPosition"> [5.0,  0.0, 0.0,
+                                        6.0, -1.0, 0.0,
+                                        6.0,  1.0, 0.0,
+                                       -5.0,  0.0, 0.0,
+                                       -6.0, -1.0, 0.0,
+                                       -6.0,  1.0, 0.0] </rosparam>
     <rosparam param="InitialYaw"> [3.1415,
                                    3.1415,
                                    3.1415,
