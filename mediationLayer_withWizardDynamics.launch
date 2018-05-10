@@ -87,6 +87,7 @@
 
     <!-- Set update rate for the threads -->
     <rosparam param="integrator_rate"> 300.0 </rosparam> <!-- Integrator -->
+    <rosparam param="publish_rate"> 20.0 </rosparam> <!-- publish rate -->
 
     <!-- Standard deviation for position measurements -->
     <rosparam param="std_dev_pos_meas"> 0.01 </rosparam>
