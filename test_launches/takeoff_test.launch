@@ -6,12 +6,12 @@
     output="screen">
 
     <!-- List of team quad names (first one is goalkeeper) -->
-    <rosparam param="MyTeam"> ["harry",
-                               "hermione",
-                               "ron"] </rosparam>
+    <rosparam param="MyTeam"> ["phoenix",
+                               "gryphon",
+                               "pegasus"] </rosparam>
 
     <!-- Initial position quads (meters) -->
-    <rosparam param="InitialPosition"> [-6.0,  0.0, 2.0,
+    <rosparam param="InitialPosition"> [-5.0,  0.0, 1.0,
                                         -6.0, -1.5, 1.1,
                                         -6.0,  1.5, 1.2] </rosparam>
     <!-- Initial yaw quads (radians) -->
@@ -25,8 +25,8 @@
 
 
     <!-- Dynamic parameters -->
-    <rosparam param="max_acceleration"> 4.0 </rosparam>
-    <rosparam param="max_velocity"> 2.5 </rosparam>
+    <rosparam param="max_acceleration"> 2.0 </rosparam>
+    <rosparam param="max_velocity"> 1.0 </rosparam>
 
   </node>
 

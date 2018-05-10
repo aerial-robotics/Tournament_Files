@@ -7,8 +7,8 @@
 
     <!-- List of quad names -->
     <rosparam param="QuadList"> ["phoenix",
-                                 "valkyrie",
-                                 "hippogryph",
+                                 "gryphon",
+                                 "pegasus",
                                  "harry",
                                  "hermione",
                                  "ron"] </rosparam>
@@ -71,8 +71,8 @@
 
     <!-- List of quad names -->
     <rosparam param="QuadList"> ["phoenix",
-                                 "valkyrie",
-                                 "hippogryph",
+                                 "gryphon",
+                                 "pegasus",
                                  "harry",
                                  "hermione",
                                  "ron"] </rosparam>
